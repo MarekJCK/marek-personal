@@ -78,9 +78,9 @@
 .section-about {}
 
 
-  .bio {
-
-  }
+.bio:nth-last-of-type(1) {
+  margin-top: 5%;
+}
 
     .bio-image {
 
@@ -107,6 +107,14 @@
       overflow: hidden;
     }
 
+    .bio-image-shoptet {
+      height: 100px;
+      margin-right: 10px;
+    }
+
+    .bio-image-shoptet img {
+      padding-top: 35px
+    }
 
 /**
  * Section Work
