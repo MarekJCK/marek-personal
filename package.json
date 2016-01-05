@@ -1,0 +1,34 @@
+{
+  "name": "marek-personal",
+  "version": "1.0.0",
+  "description": "mareks personal web ",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MarekJCK/marek-personal.git"
+  },
+  "keywords": [
+    "marek",
+    "personal",
+    "web"
+  ],
+  "author": "MarekJCK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarekJCK/marek-personal/issues"
+  },
+  "homepage": "https://github.com/MarekJCK/marek-personal",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-minify-css": "^1.2.3",
+    "gulp-sass": "^2.1.1",
+    "gulp-watch": "^4.3.5",
+    "gulp-webserver": "^0.9.1"
+  },
+  "dependencies": {
+    "normalize.css": "^3.0.3"
+  }
+}

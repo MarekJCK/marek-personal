@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="51px" height="51px" viewBox="0 0 51 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>Eye</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-1" sketch:type="MSArtboardGroup" transform="translate(-19.000000, -182.000000)">
+            <g id="Eye" sketch:type="MSLayerGroup" transform="translate(20.000000, 183.000000)">
+                <path d="M-0.142190062,33.0826593 C-0.142190062,33.0826593 5.63711384,16.5038491 24.9367926,16.5038491 C44.2364713,16.5038491 49.985819,33.2690664 49.985819,33.2690664 C49.985819,33.2690664 44.2830214,49.8391948 24.9367926,49.8391948 C5.59056376,49.8391948 -0.142190062,33.0826593 -0.142190062,33.0826593 Z" id="Path-1" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <ellipse id="Oval-1" fill="#D3AF7D" sketch:type="MSShapeGroup" cx="25.2192982" cy="33.4782609" rx="14.254386" ry="13.9130435"></ellipse>
+                <ellipse id="Oval-2" fill="#000000" sketch:type="MSShapeGroup" cx="25" cy="33.4782609" rx="6.14035088" ry="6.08695652"></ellipse>
+                <path d="M25,-0.0677713186 C23.8296221,-0.0897938363 16.1739508,-0.0343550273 9.84187347,4.89559618 C2.96649714,10.2485425 0.84778726,14.9603824 0.84778726,14.9603824 L0.84778726,19.9130435 C0.84778726,19.9130435 5.15170938,14.8683778 11.6803404,11.7480972 C17.6404863,8.89951731 23.9469171,8.63099377 25,8.60582846 C26.0530829,8.63099377 32.3595137,8.89951731 38.3196596,11.7480972 C44.8482906,14.8683778 49.1522127,19.9130435 49.1522127,19.9130435 L49.1522127,14.9603824 C49.1522127,14.9603824 47.0335029,10.2485425 40.1581265,4.89559618 C33.8260492,-0.0343550273 26.1703779,-0.0897938363 25,-0.0677713186 Z" id="Path-2" fill="#E0701E" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

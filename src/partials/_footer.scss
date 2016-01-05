@@ -1,0 +1,36 @@
+.page-footer {
+  color: white;
+  background: $black;
+
+  @include breakpoint($mobile) {
+    text-align: center;
+  }
+
+  @include breakpoint($tablet) {
+    height: 50px;
+  }
+}
+
+  .disclaimer {
+    display: block;
+    padding-top: 18px;
+  }
+
+  .social {
+    padding: 15px 0 0;
+    margin: 0;
+    list-style: none;
+
+    @include breakpoint($tablet) {
+      text-align: right;
+    }
+  }
+
+    .social-item {
+      display: inline-block;
+      margin: 0;
+    }
+
+    .social-image {
+      width: 24px;
+    }

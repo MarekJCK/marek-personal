@@ -1,0 +1,148 @@
+/*------------------------------------*\
+    #SECTIONS
+\*------------------------------------*/
+
+.section {
+  padding: 50px 0;
+}
+
+  .section-title {
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .section-title:after {
+    position: absolute;
+    content: '';
+    width: 80px;
+    height: 2px;
+    background: $black;
+    z-index: 1;
+    bottom: -5px;
+    left: 50%;
+    margin-left: -40px;
+  }
+
+
+/**
+ * Section Banner
+ */
+
+.section-banner {
+  background: url('../images/banner.jpg') center fixed;
+  background-size: cover;
+  height: 300px;
+}
+
+  .section-banner-container {
+    height: 100%;
+  }
+
+  .tagline {
+    display: table;
+    height: 100%;
+  }
+
+    .tagline-inner {
+      display: table-cell;
+      vertical-align: middle;
+    }
+
+  .tagline-title,
+  .tagline-subtitle {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 0 10px;
+  }
+
+  .tagline-title {
+
+    @include breakpoint($mobile) {
+      font-size: 2.5rem;
+    }
+  }
+
+  .tagline-subtitle {
+
+    @include breakpoint($mobile) {
+      font-size: 2rem;
+    }
+  }
+
+
+/**
+ * Section Work
+ */
+
+.section-about {}
+
+
+  .bio {
+
+  }
+
+    .bio-image {
+
+      @include breakpoint($mobile) {
+        max-width: 100px;
+        margin: 0 auto 20px;
+      }
+
+      @include breakpoint($tablet) {
+        float: left;
+        margin-right: 20px;
+      }
+    }
+
+      .bio-image img {
+        display: block;
+
+        @include breakpoint($mobile) {
+          width: 100%;
+        }
+      }
+
+    .bio-body {
+      overflow: hidden;
+    }
+
+
+/**
+ * Section Work
+ */
+
+.section-work {
+  background: #E0E0E0;
+}
+
+
+  .projects {}
+
+
+    .project {}
+
+      .project-title {
+        margin-bottom: 0;
+      }
+
+
+
+/**
+ * Section Skills
+ */
+
+.skills {}
+
+
+  .skill {}
+
+    .skill-image {
+      display: block;
+      margin: 0 auto;
+    }
+
+    .skill-title {
+      font-weight: bold;
+      margin-bottom: 0;
+    }
